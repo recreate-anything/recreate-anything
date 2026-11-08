@@ -54,7 +54,15 @@ Unknown App ──pixels──▶  Agent  ──human-like HID──▶  Unknown
 - **Forbidden**: DOM, accessibility, script execution, selectors, URLs, network, cookies, storage, ADB, logs, decompilation
 - **Deliverable**: an installable APK or a runnable static site, plus a scoreable functional topology
 
+![Access boundary: prior work reads the UI tree, DOM or source, whereas this benchmark gives the agent pixels only](docs/figures/access-boundary.png)
+
+*Figure 1 — Access boundary. Prior work may read the UI tree, DOM or source; here the agent gets pixels only, and the recreation is compared against the original. ([PDF](docs/figures/access-boundary.pdf))*
+
 ## End-to-end pipeline
+
+![Pipeline: original software, data construction, long-horizon agentic reconstruction, checklist-aligned evaluation](docs/figures/main-pipeline.png)
+
+*Figure 2 — The full loop: data construction from the original software, long-horizon agentic reconstruction under black-box visual interaction, and checklist-aligned evaluation. ([PDF](docs/figures/main-pipeline.pdf))*
 
 | Stage | What happens | Artifacts |
 |---|---|---|

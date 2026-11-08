@@ -54,7 +54,15 @@ Unknown App ──pixels──▶  Agent  ──human-like HID──▶  Unknown
 - **禁止**：DOM、Accessibility、脚本执行、selector、URL、网络、Cookie、存储、ADB、日志、反编译
 - **产出**：可安装的 APK，或可运行的静态网站；外加一份可被判分的功能拓扑
 
+![访问边界：既有工作可读 UI 树、DOM 或源码，本基准只给像素](docs/figures/access-boundary.png)
+
+*图 1 — 访问边界。既有工作可以读取 UI 树、DOM 或源码；本基准只给 Agent 像素，再把复刻结果与原应用对比。（[PDF](docs/figures/access-boundary.pdf)）*
+
 ## 端到端流程
+
+![整体流程：原始软件、数据构建、长程 Agent 复刻、按清单评测](docs/figures/main-pipeline.png)
+
+*图 2 — 完整闭环：从原始软件构建数据，在黑盒视觉交互下做长程复刻，再按人工清单对齐评测。（[PDF](docs/figures/main-pipeline.pdf)）*
 
 | 阶段 | 发生什么 | 产物 |
 |---|---|---|
