@@ -16,6 +16,8 @@ Agent 看不到 DOM、看不到控件树、看不到日志，也拿不到 APK—
 
 [English](README.md) · **简体中文**
 
+**在线 trace 浏览：** <https://recreate-anything.github.io/recreate-anything/>
+
 ---
 
 ## 目录

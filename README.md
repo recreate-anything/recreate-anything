@@ -16,6 +16,8 @@ It exists to answer one question: **when an agent may only look and act the way 
 
 **English** · [简体中文](README.zh-CN.md)
 
+**Live trace viewer:** <https://recreate-anything.github.io/recreate-anything/>
+
 ---
 
 ## Table of contents
